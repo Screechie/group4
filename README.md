@@ -1,6 +1,6 @@
-#4SQUARE
+###4SQUARE
 
-#Group Members
+###Group Members
 -Rachit Raval
 -Divyaben Patel
 -Jocelyne Mak
