@@ -1,6 +1,7 @@
 /* Reset Styles */
 html, body {
   height: 100%;
+  overflow: hidden;
   padding: 0;
   margin: 0;
   width: 100%;
@@ -10,7 +11,7 @@ html, body {
 :root {
   --nature-font-color: #fff;
   --urban-font-color: #fff;
-  --haven-font-color: #585555;
+  --haven-font-color: #fff;
   --categories-font-family: serfif;
   --categories-font-weight: lighter;
 }
@@ -38,7 +39,7 @@ footer {
 }
 
 .nature-container {
-  background-image: url("../img/nature.jpg");
+  background-image: url("../img/nature3.jpg");
   background-position: center;
   background-size: cover;
   color: var(--nature-font-color);
@@ -52,7 +53,7 @@ footer {
 }
 
 .urban-container {
-  background-image: url("../img/urban.jpg");
+  background-image: url("../img/urban1.jpg");
   background-position: center;
   background-size: cover;
   color: var(--urban-font-color);
@@ -65,7 +66,7 @@ footer {
 }
 
 .haven-container {
-  background-image: url("../img/haven1.jpg");
+  background-image: url("../img/haven2.jpg");
   background-position: center;
   background-size: cover;
   color: var(--haven-font-color);
@@ -77,19 +78,38 @@ footer {
 }
 
 .containers {
+  display: flex;
+  justify-content: center;
   height: 100%;
   width: 100%;
 }
 
 .gallery-title {
   height: 5%;
+  text-align: center;
+}
+
+.descriptions {
+  text-align: center;
 }
 
 /* Button Styles */
-button {
+.view-btn {
+  color: #fff;
   background-color: transparent;
   border: 1px solid #fff;
   font-family: exo;
+  font-size: 1.2em;
+  font-weight: bold;
+  opacity: 0.9;
   height: 5%;
-  width: 15%;
+  width: 60%;
 }
+
+.view-btn:focus {
+  outline: 0;
+  opacity: 1;
+}
+
+
+
