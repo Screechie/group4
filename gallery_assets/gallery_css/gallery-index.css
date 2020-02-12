@@ -1,0 +1,116 @@
+/* Reset Styles */
+html, body {
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/* Variables */
+:root {
+  --nature-font-color: #fff;
+  --urban-font-color: #fff;
+  --haven-font-color: #fff;
+  --categories-font-family: serfif;
+  --categories-font-weight: lighter;
+}
+
+/*NB: To be replaced by Rachit's code */
+nav {
+  height: 10%;
+  width: 100%;
+}
+
+footer {
+  height: 10%;
+  width: 100%;
+}
+
+/* Catergory Styles */
+.category-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: .75%;
+  margin: 0 auto;
+  height: 70%;
+  width: 90%;
+}
+
+.nature-container {
+  background-image: url("../img/nature3.jpg");
+  background-position: center;
+  background-size: cover;
+  color: var(--nature-font-color);
+  font-family: var(--categories-font-family);
+  font-weight: var(--categories-font-weight);
+  opacity: 0.9;  
+}
+
+.nature-container:hover {
+  opacity: 1;
+}
+
+.urban-container {
+  background-image: url("../img/urban1.jpg");
+  background-position: center;
+  background-size: cover;
+  color: var(--urban-font-color);
+  opacity: 0.9;
+  
+}
+
+.urban-container:hover {
+  opacity: 1;
+}
+
+.haven-container {
+  background-image: url("../img/haven2.jpg");
+  background-position: center;
+  background-size: cover;
+  color: var(--haven-font-color);
+  opacity: 0.9;  
+}
+
+.haven-container:hover {
+  opacity: 1;
+}
+
+.containers {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.gallery-title {
+  font-family: 'Lora', serif;
+  height: 5%;
+  text-align: center;
+}
+
+.descriptions {
+  text-align: center;
+}
+
+/* Button Styles */
+.view-btn {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  font-family: exo;
+  font-size: 1.2em;
+  font-weight: bold;
+  opacity: 0.9;
+  height: 5%;
+  width: 60%;
+}
+
+.view-btn:focus {
+  outline: 0;
+  opacity: 1;
+}
+
+
+
