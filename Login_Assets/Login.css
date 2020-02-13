@@ -74,7 +74,7 @@ header a:hover{
 #showcase{
     min-height: 780px;
     background-color: rgb(72, 27, 102);
-    background-image: url(../LoginPage/Images/Login_feature.jpg);
+    background-image: url(../Login_Assets/Login_feature.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
