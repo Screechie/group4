@@ -74,22 +74,28 @@ header a:hover{
 #showcase{
     min-height: 780px;
     background-color: rgb(72, 27, 102);
-    background-image: url(../LoginPage/Images/Image1.jpg);
+    background-image: url(../LoginPage/Images/Login_feature.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     text-align: center;
-    background-size: 104% 950px;
+    /* background-size: 104% 950px; */
 }
 
-/* .form1{
-    margin-top: 100px;
-} */
+.form1{
+    background-color: rgba(72, 27, 102, .5);
+    width: 100%;
+    margin: auto;
+    padding-bottom: 40px;
+    border-bottom: 1px solid white;
+}
 
 input{
     border: 0;
     outline: 0;
     background: transparent;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(255, 255, 255);
     margin-top: 80px;
 }
 input,
@@ -98,6 +104,7 @@ input::-webkit-input-placeholder {
     line-height: 2;
     font-family: titillium;
     font-weight: 200;
+    color: #ffffff;
 }
 /* button */
 .button{
@@ -106,7 +113,7 @@ input::-webkit-input-placeholder {
 }
 
 .button span{
-    color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
     margin-top: 70px;
 }
 .example_f span {
