@@ -1,0 +1,176 @@
+body{
+    font-family: exo;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 1.5;
+    /* font: 15px/1.5 titillium; */
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+/*Global*/
+.container{
+    /* width: 100%; */
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding-top: 40px;
+    width: 100%;
+    min-height: 100px;
+    margin: auto;
+    position: sticky;
+    top: 0;
+}
+
+header a{
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+header ul{
+    margin-right: 80px;
+}
+
+header li{
+    display: inline;
+    float: left;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+header #branding{
+    float: left;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+header #branding h1{
+    margin bottom: 5px;
+}
+
+header nav{
+    float: right;
+    
+}
+
+header a:hover{
+    color: darkcyan;
+    font-weight: bold;
+}
+
+.about-me{
+    padding: 100px 15px;
+    background-color: #f5f8fd;
+    display: flex;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.containe{
+    max-width: 1140px;
+    margin: auto 40px auto 40px;
+    max-height: 500px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-title{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+.about-me .section-title{
+    flex: 0 0 100%;
+    max-width:100%;
+    margin-bottom: 40px;
+}
+.about-me .section-title h1{
+    display: inline-block;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700px;
+    color: #000000;
+    margin: 0 0 10px;
+    
+}
+
+
+.text-uppercase{
+    text-transform: uppercase!important;
+}
+
+/*.about-me .section-title p.small{
+    display: block;
+    font-size: 14px;
+    color: #838383;
+    font-weight: 400;
+    letter-spacing: 2px;
+}*/
+
+.about-me .about-content .img{
+    flex: 0 0 55.33%;
+    max-width: 55.33%;
+
+}
+.about-me .about-content .img img{
+    width: 550;
+    height: 400px;
+    display: block;
+}
+.about-me .about-content .text{
+   
+    flex: 0 0 44.66%;
+    max-width: 44.66%;
+    float: left;
+}
+.about-me .about-content .text h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    color: #000000;
+}
+.about-me .about-content .text p{
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px;
+    color:#838383;
+    line-height: 24px;
+}
+.about-me .about-content .text .info{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   margin-top: 30px;
+
+   
+}
+
+
+/* Footer */
+footer{
+    text-align: center;
+    margin: 40px;
+}
+.logo img{
+    margin: 0 30px 10px 30px;
+}
