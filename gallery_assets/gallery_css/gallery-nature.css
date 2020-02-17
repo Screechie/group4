@@ -60,6 +60,7 @@ table {
 /* Header CSS by R.Raval*/
 header{
   background-color: #fff;
+  font-family: exo;
   color: rgb(0, 0, 0);
   /* padding-top: 2%; */
   width: 100%;
@@ -146,6 +147,7 @@ ion-icon {
 
 .overlay {
   background-color: darkcyan;
+  display: flex;
   height: 100%;
   opacity: 0;
   position: absolute;
@@ -153,6 +155,14 @@ ion-icon {
   bottom: 0;
   transition: .3s ease;
   width: 100%;
+}
+
+.overlay-title {
+  align-self: center;
+  color: #fff;
+  font-family: exo, sans-serif;
+  font-size: 2em;
+  text-align: center;
 }
 
 .icons {
