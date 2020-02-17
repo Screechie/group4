@@ -104,8 +104,7 @@ header a:hover{
   color: var(--urban-font-color);
   font-family: var(--categories-font-family);
   font-weight: var(--categories-font-weight);
-  opacity: 0.9;
-  
+  opacity: 0.9;  
 }
 
 .urban-container:hover {
