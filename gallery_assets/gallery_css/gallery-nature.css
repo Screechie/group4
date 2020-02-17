@@ -125,7 +125,7 @@ header a:hover{
 
 .masonry-item {
   margin-bottom: 15px;
-  opacity: .7;
+  /* opacity: .7; */
   position:relative;
 }
 
@@ -181,6 +181,24 @@ ion-icon {
 
 .share:hover {
   color: darkgrey;
+}
+
+/* Lightbox styles */
+#lightbox {
+  background-color: darkgrey;
+  display: none;
+  height: 100%;
+  opacity: .7;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+#lightbox.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Responsive media queries */
