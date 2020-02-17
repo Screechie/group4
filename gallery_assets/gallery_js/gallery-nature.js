@@ -1,4 +1,3 @@
-onHeaderScroll = () => {
-  let header = document.getElementsByTagName('header');
+let modal = () => {
   
 }
