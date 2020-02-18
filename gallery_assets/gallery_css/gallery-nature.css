@@ -188,11 +188,18 @@ ion-icon {
   background-color: darkgrey;
   display: none;
   height: 100%;
-  opacity: .7;
+  opacity: 1;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
+}
+
+#lightbox img {
+  opacity: 1;
+  height: 80%;
+  width: 80%;
+  object-fit: cover;
 }
 
 #lightbox.active {
