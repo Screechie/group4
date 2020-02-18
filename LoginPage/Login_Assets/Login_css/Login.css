@@ -74,7 +74,7 @@ header a:hover{
 #showcase{
     min-height: 780px;
     background-color: rgb(72, 27, 102);
-    background-image: url(../Login_Assets/Login_feature.jpg);
+    background-image: url(..//img/Login_feature.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -88,7 +88,7 @@ header a:hover{
     width: 100%;
     margin: auto;
     padding-bottom: 40px;
-    border-bottom: 1px solid white;
+    /* border-bottom: 1px solid white; */
 }
 
 input{
