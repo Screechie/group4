@@ -1,0 +1,165 @@
+body{
+  font-family: exo;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 1.5;
+  /* font: 15px/1.5 titillium; */
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+
+}
+
+#wrapper{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  
+
+}
+
+.maincontainer {
+  height: 100%;
+  width: 100%;
+  
+  padding:0 2% 2% 2%;
+  
+  }
+
+.leftcontent{
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+.leftcontent > img {
+  height:100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.rightcontent {
+  float: right;
+  width: 40%;
+  height: 100%;
+  background-color: gray;
+}
+
+/* .leftcontent > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ 
+}  */
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header{
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding-top: 40px;
+  width: 100%;
+  height: 70px;
+  margin: auto;
+  position: sticky;
+  top: 0;
+}
+
+header a{
+
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+header ul{
+  margin-right: 80px;
+}
+
+header li{
+  display: inline;
+  float: left;
+  padding-left: 70px;
+  padding-top: 13px;
+}
+
+header #branding{
+  float: left;
+  margin-left: 80px;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  
+}
+
+header a:hover{
+  color: darkcyan;
+  font-weight: bold;
+}
+/*  */
+
+/* Showcase*/
+/* #showcase{
+  min-height: 780px;
+  background-color: rgb(72, 27, 102);
+  background-image: url(../HomePage_Assets/Feature.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  text-align: center;
+}
+
+#showcase h1{
+  font-size: 70px;
+  color: white;
+  text-transform: capitalize;
+  font-family: fauna one;
+  font-weight: 100;
+  margin-top: 150px;
+}
+
+#showcase p{
+  font-size: 25px;
+  color: white;
+  text-transform: uppercase;
+  font-family: titillium;
+  font-weight: 100;
+  margin-top: -30px;
+  font-weight: 200;
+  letter-spacing: 8px;  
+} */
+
+button{
+  font-family: titillium;
+  background-color: Transparent;
+  font-weight: 200;
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 6px
+}
+
+/* Footer */
+footer{
+  clear: both;
+  text-align: center;
+  margin: 40px;
+}
+.logo img{
+  margin: 0 30px 0 30px;
+}
