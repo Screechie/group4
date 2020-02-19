@@ -1,21 +1,33 @@
-let lightbox = document.createElement('div');
-
+const items = Array.from(document.getElementsByClassName('masonry-item')); //convert HTML collection to an array
+const lightbox = document.createElement('div');
 lightbox.id = 'lightbox';
-
-// Append lightbox to body of html document
 document.body.appendChild(lightbox);
 
-// collect all nature images
-const lightboxImages = document.getElementsByClassName('nature-image');
+items.forEach((item) => {
 
-//Lopp t
-lightboxImages.forEaach( (img) => {
-  img.addEventListener('click', (event) => {
+  const img = item.firstElementChild;
+
+  item.addEventListener('click', (event) => {
+    
     lightbox.classList.add('active');
-    const image =document.createElement('img');
+    const image = document.createElement('img');
     image.src = img.src;
+    while(lightbox.firstChild) {
+      lightbox.removeChild(lightbox.firstChild);
+    }
     lightbox.appendChild(image);
   });
+  console.log(img.src);
 });
 
-console.log(lightboxImages);
+// This code will close the lightbox
+lightbox.addEventListener('click', (event) => {
+  if(event.target !== event.currentTarget)
+    return;
+
+    lightbox.classList.remove('active');
+});
+
+
+
+console.log(items);
