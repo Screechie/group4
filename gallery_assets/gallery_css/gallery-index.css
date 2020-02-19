@@ -20,6 +20,7 @@ html, body {
 header{
   background-color: #ffffff;
   color: rgb(0, 0, 0);
+  font-family: exo;
   /* padding-top: 2%; */
   width: 100%;
   height: 10%;
@@ -143,8 +144,9 @@ header a:hover{
 
 .gallery-title {
   font-family: 'Lora',serif;
-  font-size: 1.5em;
+  font-size: 3em;
   font-weight: lighter;
+  margin-bottom: 2%;
   
 }
 
