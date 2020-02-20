@@ -73,7 +73,7 @@ header a:hover{
 #showcase{
     min-height: 780px;
     background-color: rgb(72, 27, 102);
-    background-image: url(../Admin_Assets/admin_feature.jpg);
+    background-image: url(..//img/admin_feature.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -85,8 +85,8 @@ header a:hover{
     background-color: rgba(255, 255, 255, 0);
     float: left;
     max-width: 33.33%;
-    min-height: 500px;
-    max-height: 500px;
+    /* min-height: 500px; */
+    max-height: 400px;
     overflow: auto;
     /* -webkit-scrollbar-corner-background: rgba(0,0,0,0.5); */
 
