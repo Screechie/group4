@@ -140,6 +140,7 @@ header a:hover{
 .gallery-title-div {
   height: 5%;
   text-align: center;
+  margin-bottom: 2%;
 }
 
 .gallery-title {
@@ -193,5 +194,4 @@ footer{
 .logo img{
   margin: 0 30px 0 30px;
 }
-
 
