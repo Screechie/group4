@@ -1,0 +1,137 @@
+body{
+  font-family: exo;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 1.5;
+  /* font: 15px/1.5 titillium; */
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+
+#wrapper{
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  padding: 0;
+}
+
+.maincontainer {
+  height: 80%;
+  margin: 0 auto;
+  width: 90%;  
+  padding:0 2% 2% 2%;  
+}
+
+.leftcontent{
+  width: 35%;
+  height: 100%;
+  float: left;
+}
+
+.leftcontent > img {
+  height:100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.rightcontent {
+  float: left;
+  height: 70%;
+  padding: 2%;
+  background-color: gray;
+  width: 60%;
+}
+
+/* Margin bottom added to conatiner to fill rightcontent background */
+.container {
+  margin-bottom: 10.7%;
+}
+
+/* .leftcontent > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ 
+}  */
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header{
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  height: 10%;
+  margin: auto;
+  padding-top:1%;
+  position: fixed;
+  top: 0;
+}
+
+header a{
+
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+header ul{
+  margin-right: 80px;
+}
+
+header li{
+  display: inline;
+  float: left;
+  padding-left: 70px;
+  padding-top: 13px;
+}
+
+header #branding{
+  float: left;
+  margin-left: 80px;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  
+}
+
+header a:hover{
+  color: darkcyan;
+  font-weight: bold;
+}
+
+
+button{
+  font-family: titillium;
+  background-color: Transparent;
+  font-weight: 200;
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 6px
+}
+
+
+/* Footer */
+footer{
+  clear: left;
+  text-align: center;
+  margin: 40px;
+}
+.logo img{
+  margin: 0 30px 0 30px;
+}
