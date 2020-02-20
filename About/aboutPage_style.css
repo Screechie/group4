@@ -127,19 +127,21 @@ header a:hover{
 }*/
 
 .about-me .about-content .img{
-    flex: 0 0 55.33%;
-    max-width: 55.33%;
+    flex: 0 0 66.33%;
+    max-width: 66.33%;
 
 }
 .about-me .about-content .img img{
-    width: 550;
-    height: 400px;
+    width: 600;
+    height: 500px;
     display: block;
+    
 }
 .about-me .about-content .text{
+    
    
-    flex: 0 0 44.66%;
-    max-width: 44.66%;
+    flex: 0 0 33.66%;
+    max-width: 33.66%;
     float: left;
 }
 .about-me .about-content .text h2{
@@ -152,9 +154,10 @@ header a:hover{
     font-size: 15px;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
-    margin: 0 0 20px;
+    margin: 0 0 10px;
     color:#838383;
     line-height: 24px;
+    
 }
 .about-me .about-content .text .info{
     display:flex;
