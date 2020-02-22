@@ -230,6 +230,36 @@ header a:hover, #title-link:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.msg-container {
+  font-family: exo;
+  color: #fff;
+  font-size: 2em;
+  padding-top: 2%;
+  position: absolute;
+  top: 0;
+}
+
+.left-arrow {
+  color: #fff;
+  font-size: 10em;
+  margin-right: 2%;
+  opacity: .7;
+}
+
+.right-arrow {
+  color: #fff;
+  font-size: 10em;
+  margin-left: 2%;
+  opacity: .7;
+}
+
+.left-arrow:hover, .right-arrow:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 /* Footer Styles */
