@@ -85,16 +85,18 @@ header a:hover{
 
 
 .containe{
-    max-width: 1140px;
+    max-width: 100%;
     margin: auto 40px auto 40px;
     max-height: 500px;
+    
 }
 .row{
     display: flex;
     flex-wrap: wrap;
-}
+    width: 100%;
+    }
 .section-title{
-    flex: 0 0 100%;
+    flex: 0 0px 100% ;
     max-width: 100%;
     margin-bottom: 40px;
 }
@@ -127,8 +129,8 @@ header a:hover{
 }*/
 
 .about-me .about-content .img{
-    flex: 0 0 66.33%;
-    max-width: 66.33%;
+    flex: 0 0 50.20%;
+    max-width: 50.20%;
 
 }
 .about-me .about-content .img img{
@@ -140,9 +142,11 @@ header a:hover{
 .about-me .about-content .text{
     
    
-    flex: 0 0 33.66%;
-    max-width: 33.66%;
+    flex: 0 0 49.80%;
+    max-width: 49.80%;
     float: left;
+    
+    
 }
 .about-me .about-content .text h2{
     font-size: 30px;
