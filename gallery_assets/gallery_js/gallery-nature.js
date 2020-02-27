@@ -34,6 +34,8 @@ items.forEach((item) => {
   //Attach click event to each masonry item
   item.addEventListener('click', (event) => {
 
+    console.log(event);
+
     //Add the active class defined in the CSS to the lightbox div
     lightbox.classList.add('active');
     const image = document.createElement('img');    
