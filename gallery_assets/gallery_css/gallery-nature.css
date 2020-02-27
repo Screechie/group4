@@ -135,7 +135,7 @@ header a:hover, #title-link:hover{
 }
 
 .masonry-item:hover .overlay {
-  cursor: pointer;
+  cursor: zoom-in;
   opacity: 1;
 }
 
@@ -199,6 +199,7 @@ header a:hover, #title-link:hover{
 }
 
 .overlay-title:hover {
+  cursor: pointer;
   opacity: .7;
 }
 
@@ -212,14 +213,17 @@ header a:hover, #title-link:hover{
 }
 
 .download:hover {
+  cursor: pointer;
   opacity: .7;
 }
 
 .like:hover {
+  cursor: pointer;
   color: red;
 }
 
 .share:hover {
+  cursor: pointer;
   opacity: .7;
 }
 
